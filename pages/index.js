@@ -13,7 +13,7 @@ const Home = () => {
         <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
       </Head>
 
-      <body>
+      <body className={styles.customBody}>
         <a-scene>
           <a-box position="-1 0.5 -3" rotation="0 45 0" color="#4CC3D9"></a-box>
           <a-sphere
